@@ -11,7 +11,7 @@ body {
 
 /* The time line (the red one) */
 .line {
-	position:relative;
+	position:absolute;
 	border-top: 2px dashed red;
 	margin-left: 104px;
 	width: 1044px;
@@ -23,6 +23,7 @@ body {
 	background-color: #F4ECDD;
 	vertical-align: middle;
 	font-size: 16px;
+	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
 }
 
 /* Lunch */
@@ -30,14 +31,16 @@ body {
 	background-color: #C8ECDF;
 	vertical-align: middle;
 	font-size: 16px;
-	height: 312px;
+	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
 }
 
 /* Dinner */
 .dinner {
 	background-color: #F8E1E6;
 	vertical-align: middle;
+	height: 204px;
 	font-size: 16px;
+	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
 }
 
 /* The empty space */
@@ -104,6 +107,7 @@ td, th {
 	word-wrap:break-word;
 	white-space: normal;
 	font-size: 13px;
+
 }
 
 th {
@@ -119,6 +123,7 @@ th {
 	background-color: #BADCE8;
 	text-align: left;
 	height: 156px;
+	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
 }
 
 .speakername {
