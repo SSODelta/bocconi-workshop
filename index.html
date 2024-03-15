@@ -1,0 +1,340 @@
+<html>
+
+	<head>
+		<title>Bocconi May Workshop on Average-Case Computation</title>
+	</head>
+
+	<!-- MathJax for rendering TeX -->
+	<script type="text/javascript" id="MathJax-script" async
+	  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+	</script>
+
+	<!-- Defines all the abstracts -->
+	<script type="text/javascript" src="abstracts.js">
+	</script>
+
+	<!-- Utility functions -->
+	<script type="text/javascript" src="util.js">
+	</script>
+
+	<!-- Style sheet -->
+	<link rel="stylesheet" href="style.css">
+
+
+	<body onload="init();time();setInterval(time, 10000);">
+		<div>
+			<br>
+			<h1>Bocconi May Workshop on Average-Case Computation</h1>
+			You have reached the homepage of the <b>Bocconi workshop on average-case computation</b>.<br><br>
+
+			The purpose of the workshop is to explore interactions between topics related to average-case computation: cryptography, average-case complexity, statistical physics, and machine learning. The goal of the workshop is to bring together experts in these areas in order to share recent research and develop connections between these important fields. <br><br>
+
+			The workshop is being co-organized under the <a href="https://ellis.eu/">European Laboratory for Learning and Intelligent Systems</a> (ELLIS) and the <a href="https://rosenalon.github.io/cifra/">CIFRA Institute</a>.
+
+			<!--<h2>List of Speakers</h2>
+			Here is the list of confirmed speakers. For the full program, see below.
+			<ul>
+				<li>Damiano Abram</li>
+				<li>Afonso Bandeira</li>
+				<li>Andrej Bogdanov</li>
+				<li>Miranda Christ</li>
+				<li>Ilias Diakonikolas</li>
+				<li>Shuichi Hirahara</li>
+				<li>Yuval Ishai</li>
+				<li>Chris Jones</li>
+				<li>Eren C. K&#305;z&#305;lda&#287;</li>
+				<li>Pravesh K. Kothari</li>
+				<li>Rajendra Kumar</li>
+				<li>Tim Kunisky</li>
+				<li>Nobutaka Shimizu</li>
+				<li>Vinod Vaikuntanathan</li>
+				<li>Prashant Nalini Vasudevan</li>
+				<li>Ilias Zadik</li>
+			</ul>-->
+
+			<h2>Program</h2>
+			All times are indicated in CEST (Central European Standard Time). Program subject to change. <br><br>
+			Click on <b>Abstract</b> to see the abstract for the corresponding talk (if available).
+			<center style="margin-bottom:200px;">
+			<table>
+				<tr>
+					<th class="time" style="border:0px;"></th>
+					<th class="montue">Monday 20th May</th>
+					<th class="montue">Tuesday 21th May</th>
+					<th class="montue">Wednesday 22th May</th>
+					<th class="montue">Thursday 23th May</th>
+					<th class="montue">Friday 24th May</th>
+				</tr>
+				<tr>
+					<td class="time"><b>9:00 - &nbsp;&nbsp;9:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="coffee" colspan=3><span class="icon">&#9749;</span> <i>Morning coffee</i></td>
+				</tr>
+				<tr>
+					<td class="time"><b>9:30 - 10:15</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="speaker">
+						<b><center><a href="https://www.cs.princeton.edu/~kothari/" class="speakername">Pravesh K. Kothari</a></b><br>
+						<i>Princeton University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('pravesh');" class="abstract"><b><span id="arrow_pravesh" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_pravesh"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://sites.google.com/view/rajendrak/home" class="speakername">Rajendra Kumar</a></b><br>
+						<i>IIT Delhi</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('rajendra');" class="abstract"><b><span id="arrow_rajendra" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_rajendra"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>10:15 - 11:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://sites.google.com/view/giuliomalavolta/" class="speakername">Giulio Malavolta</a></b><br>
+						<i>Bocconi University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('giulio');" class="abstract"><b><span id="arrow_giulio" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_giulio"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://researchmap.jp/shuichi.hirahara/?lang=english" class="speakername">Shuichi Hirahara</a></b><br>
+						<i>National Institute of Informatics</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('shuichi');" class="abstract"><b><span id="arrow_shuichi" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_shuichi"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://samardjiska.org/" class="speakername">Simona Samardjiska</a></b><br>
+						<i>Radboud University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('simona');" class="abstract"><b><span id="arrow_simona" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_simona"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>11:00 - 11:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="coffee" colspan=3><span class="icon">&#9749;</span> <i>Coffee break</i></td>
+				</tr>
+				<tr>
+					<td class="time"><b>11:30 - 12:15</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://dblp.org/pid/243/6137.html" class="speakername">Omri Shmueli</a></b><br>
+						<i>Tel Aviv University, Weizmann University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('omri');" class="abstract"><b><span id="arrow_omri" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_omri"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://yuvali.cswp.cs.technion.ac.il/" class="speakername">Yuval Ishai</a></b><br>
+						<i>Technion - Israel Institute of Technology</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('yuval');" class="abstract"><b><span id="arrow_yuval" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_yuval"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://people.math.ethz.ch/~abandeira/" class="speakername">Afonso S. Bandeira</a></b><br>
+						<i>ETH Z&uuml;rich</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('afonso');" class="abstract"><b><span id="arrow_afonso" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_afonso"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>12:15 - 12:45</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td rowspan=3 colspan=3 class="lunch"><span class="icon">&#127837;</span> Lunch</td>
+				</tr>
+				<tr>
+					<td class="time"><b>12:45 - 13:15</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>13:15 - 13:45</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>13:45 - 14:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://www.comp.nus.edu.sg/~prashant/" class="speakername">Prashant Nalini Vasudevan</a></b><br>
+						<i>National University of Singapore</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('prashant');" class="abstract"><b><span id="arrow_prashant" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_prashant"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://people.csail.mit.edu/vinodv/" class="speakername">Vinod Vaikuntanathan</a></b><br>
+						<i>Massachusetts Institute of Technology</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('vinod');" class="abstract"><b><span id="arrow_vinod" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_vinod"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://www.kunisky.com/" class="speakername">Tim Kunisky</a></b><br>
+						<i>Yale University</i></i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('tim');" class="abstract"><b><span id="arrow_tim" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_tim"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>14:30 - 15:15</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://chrisjones.space/" class="speakername">Chris Jones</a></b><br>
+						<i>Bocconi University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('chris');" class="abstract"><b><span id="arrow_chris" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_chris"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://www.cs.columbia.edu/~mchrist/" class="speakername">Miranda Christ</a></b><br>
+						<i>Columbia University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('miranda');" class="abstract"><b><span id="arrow_miranda" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_miranda"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://www.eren-kizildag.com/" class="speakername">Eren C. K&#305;z&#305;lda&#287;</a></b><br>
+						<i>Columbia University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('eren');" class="abstract"><b><span id="arrow_eren" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_eren"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>15:15 - 15:45</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="coffee" colspan=3>&#9749; <i>Coffee break</i></td>
+				</tr>
+				<tr>
+					<td class="time"><b>15:45 - 16:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://andrejb.net/" class="speakername">Andrej Bogdanov</a></b><br>
+						<i>University of Ottawa</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('andrej');" class="abstract"><b><span id="arrow_andrej" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_andrej"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://iliaszadik.github.io/" class="speakername">Ilias Zadik</a></b><br>
+						<i>Yale University</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('ilias_z');" class="abstract"><b><span id="arrow_ilias_z" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_ilias_z"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="http://www.iliasdiakonikolas.org/" class="speakername">Ilias Diakonikolas</a></b><br>
+						<i>UW Madison</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('ilias_d');" class="abstract"><b><span id="arrow_ilias_d" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_ilias_d"></span>
+					</td>
+				</tr>
+				<tr>
+					<td class="time"><b>16:30 - 17:15</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="speaker">
+						<b><center><a href="https://sites.google.com/view/nobutaka-shimizu/home" class="speakername">Nobutaka Shimizu</a></b><br>
+						<i>Tokyo Institute of Technology</i></center><br>
+						<b>Title:</b><br> Placeholder<br><br>
+						<span onclick="abstract('nobutaka');" class="abstract"><b><span id="arrow_nobutaka" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_nobutaka"></span>
+					</td>
+					<td class="speaker">
+						<b><center><a href="https://damianoabram.github.io/" class="speakername">Damiano Abram</a></b><br>
+						<i>Aarhus University</i></center><br>
+						<b>Title:</b><br> Cryptography from Planted Graphs: Security with Logarithmic-Size Messages<br>
+						<a href="https://eprint.iacr.org/2023/1929"><i>eprint</i></a><br><br>
+						<span onclick="abstract('damiano');" class="abstract"><b><span id="arrow_damiano" class="arrow">&#9654;</span>&nbsp; Abstract</b></a><br>
+						<span id="body_damiano"></span>
+					</td>
+					<td class="empty"></td>
+				</tr>
+				<tr style="height:165px;">
+					<td class="time"><b>17:15 - 18:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>18:30 - 19:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>19:00 - 19:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>19:30 - 20:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>20:00 - 20:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="dinner" rowspan=4><span class="icon">&#127858;</span> Dinner</td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>20:30 - 21:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>21:00 - 21:30</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="time"><b>21:30 - 22:00</b></td>
+					<td class="empty montue"></td>
+					<td class="empty montue"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+				</tr>
+			</table>
+			<div class="line" id="line"></div>
+			</center>
+		</div>
+	</body>
+
+</html>
