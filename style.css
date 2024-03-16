@@ -19,24 +19,36 @@ body {
 
 
 /* Coffee breaks */
+.highlighted{
+	background: ##fffff2;
+	box-shadow: 0px 0px 20px 10px rgb(255, 255, 240);
+}
 .coffee {
-	background-color: #F4ECDD;
+	/*background-color: #F4ECDD;*/
+  /*background: linear-gradient(187deg,   #F4ECDD,  97%, transparent),
+    url("coffee.png");*/
+
+	background-image: url("coffee.png");
+  background-size: 400px;
 	vertical-align: middle;
 	font-size: 16px;
 	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
 }
 
 /* Lunch */
-.lunch {
-	background-color: #C8ECDF;
+.lunch{
+	background-image: url("pasta.png");
+    background-size: 250px;
+    height: 80px;
 	vertical-align: middle;
 	font-size: 16px;
-	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
+	box-shadow: 2px 2px -2px -2px rgb(100, 100, 100);
 }
 
 /* Dinner */
 .dinner {
-	background-color: #F8E1E6;
+	background-image: url("pizza.png");
+    background-size: 300px;
 	vertical-align: middle;
 	height: 204px;
 	font-size: 16px;
@@ -61,7 +73,7 @@ body {
 .time {
 	position: absolute;
 	margin-left: -100px;
-	padding-top: 25px;
+	padding-top: 10px;
 	min-width: 90px;
 	width: 90px;
 	max-width: 90px;
@@ -89,7 +101,7 @@ table {
 }
 
 td, tr {
-	height: 104px;
+	height: 50px;
 }
 
 th {
@@ -120,7 +132,7 @@ th {
 
 /* The td for a talk/speaker */
 .speaker {
-	background-color: #BADCE8;
+	background: linear-gradient(#DCFEFA, 10%, #BADCE8);
 	text-align: left;
 	height: 156px;
 	box-shadow: 2px 2px 4px -2px rgb(100, 100, 100);
@@ -135,5 +147,6 @@ b.speaker {
 }
 
 .icon {
+	display:none;
 	font-size: 24px;
 }
