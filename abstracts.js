@@ -10,7 +10,7 @@ function init(){
 	abstracts.set("yuval","");
 	abstracts.set("afonso","");
 	abstracts.set("prashant","");
-	abstracts.set("vinod","");
+	abstracts.set("vinod","I will describe two results at the interface of statistics and machine learning, and cryptography.<br><br>First, in the increasingly common setting where the training of models is outsourced, I will describe a method whereby a malicious trainer can use cryptography to insert an <i>undetectable</i> backdoor in a classifier. Using a secret key, the trainer can then slightly alter inputs to create large deviations in the model output. Without the secret key, the existence of the backdoor is hidden. This result relies on the recently formulated hardness of the continuous learning with errors (CLWE) problem.<br><br>Second, I will show that CLWE is as hard as the widely studied learning with errors (LWE) problem using techniques from leakage-resilient cryptography. In turn, I will use this to show the nearly optimal hardness of the long-studied Gaussian mixture learning problem.<br><br>Based on joint works with Shafi Goldwasser, Michael P. Kim and Or Zamir; and with Aparna Gupte and Neekon Vafa.");
 	abstracts.set("tim","");
 	abstracts.set("pravesh","");
 	abstracts.set("chris","");
