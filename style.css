@@ -12,9 +12,8 @@ body {
 /* The time line (the red one) */
 .line {
 	position:absolute;
-	border-top: 2px dashed red;
-	margin-left: 104px;
-	width: 1044px;
+	border-top: 2px solid red;
+	width: 95px;
 }
 .papertitle{
 	font-size:14px;
@@ -74,7 +73,7 @@ body {
 /* The leftmost column */
 .time {
 	position: absolute;
-	margin-left: -100px;
+	margin-left: -104px;
 	padding-top: 10px;
 	min-width: 90px;
 	width: 90px;
