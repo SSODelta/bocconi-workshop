@@ -1,5 +1,3 @@
-var a_open = 0;
-
 function htmlDecode(input) {
   	var doc = new DOMParser().parseFromString(input, "text/html");
   	return doc.documentElement.textContent;
@@ -11,11 +9,9 @@ function abstract(x){
 	if(arrow.innerHTML == htmlDecode("&#9654;")){
 		body.innerHTML = abstracts.get(x);
 		arrow.innerHTML = "&#9660;";
-		a_open += 1;
 	} else {
 		arrow.innerHTML = "&#9654;";
 		body.innerHTML = "";
-		a_open -= 1;
 	}
 	MathJax.typeset();
 	time();
@@ -30,7 +26,7 @@ function time(){
 	if(order.length != times.length){
 		alert("order length ("+order.length+") != times length ("+times.length+")");
 	}
-	if(d.getHours() >= 9 && d.getHours() < 22 && a_open == 0){
+	if(d.getHours() >= 9 && d.getHours() < 22){
 		var hrs = (d-dref)/1000/60/60;
 		var slot = "";
 		var i_ = -1;
