@@ -2,6 +2,8 @@ var abstracts = new Map();
 
 function init(){
 	abstracts.set("michael","");
+	abstracts.set("giuseppe","");
+	abstracts.set("keisuke","");
 	abstracts.set("giulio_b","");
 	abstracts.set("giulio_m","");
 	abstracts.set("song","");
