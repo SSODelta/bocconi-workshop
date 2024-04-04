@@ -1,6 +1,24 @@
 var abstracts = new Map();
 
 function init(){
+	abstracts.set("michael","");
+	abstracts.set("giulio_b","");
+	abstracts.set("giulio_m","");
+	abstracts.set("song","");
+	abstracts.set("zohar","");
+	abstracts.set("johanni","");
+	abstracts.set("sueyeon","");
+	abstracts.set("cengiz","");
+	abstracts.set("ran","");
+	abstracts.set("guilhem","");
+	abstracts.set("yue","");
+	abstracts.set("matteo","");
+	abstracts.set("stephane","");
+	abstracts.set("florent","");
+	abstracts.set("matthieu","");
+	abstracts.set("marc","");
+	abstracts.set("federico","");
+	abstracts.set("moritz","");
 	abstracts.set("pravesh","");
 	abstracts.set("rajendra","");
 	abstracts.set("shuichi","");
